@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+
+<!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<!-- font awesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- tailwind cdn -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+
+</head>
+<body>
+    
+
+    <!-- main part -->
+     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+<!-- header part -->
+<header class="flex pt-10 mb-20">
+<!-- text content -->
+ <div class="w-2/5 h-2/4 mt-14">
+    <h1 class="text-5xl text-[#1C1C1C] font-bold	">It's good <br>
+        tea time at The <br>Tea House</h1>
+        <p class="text-[#777777] text-base	font-medium	mb-9 mt-4	">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="w-48	h-16 bg-gradient-to-r from-[#FF8938] to-[#FF0000]	rounded-lg text-[#FFFFFF] "><span class="font-bold">Explore More </span><i class="fa-solid fa-arrow-right -rotate-45 text-xl ml-2 "></i></button>
+ </div>
+
+ <!-- image-content -->
+  <div class="w-3/5 ml-14">
+<div >
+    <img class="w-full h-1/4" src="./images/banner.png" alt="">
+</div>
+<!-- card -->
+ <div class="flex items-center 	w-60 h-24 rounded-lg bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4	relative -top-24 left-20">
+    <!-- icon -->
+     <div class="mr-4 text-amber-500 text-lg"><i class="fa-solid fa-star"></i></div>
+     <div>
+        <h5 class="lg:text-2xl font-bold">5.00</h5>
+        <p class="text-gray-500">Trust Pilot Ratings</p>
+     </div >
+ </div>
+  </div>
+</header>
+
+     </main>
+
+     <!-- footer part -->
+      <footer></footer>
+</body>
+</html>
